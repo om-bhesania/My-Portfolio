@@ -20,7 +20,12 @@ const App = () => {
         <Contact />
         <Footer />
     </>
+    
   )
+  useEffect(() => {
+  ReactGA.initialize('G-JSZ3GTX4RJ');
+  ReactGA.pageview('/');
+}, [])
 }
 
 export default App
