@@ -11,15 +11,7 @@ import Footer from './components/footer/Footer'
 
 const App = () => {
   return (
-    <><!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-JSZ3GTX4RJ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-JSZ3GTX4RJ');
-</script>
+    <>
         <Header />
         <Nav />
         <About />
