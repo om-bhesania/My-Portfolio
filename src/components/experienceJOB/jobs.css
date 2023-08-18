@@ -1,0 +1,14 @@
+.containerJobs {
+    width: fit-content;
+    width: 92%;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+flex-direction: column;
+text-align: center;
+}

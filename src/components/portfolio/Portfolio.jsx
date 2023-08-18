@@ -8,7 +8,7 @@ const data = [
   {
     title: 'Animated Portfolio',
     description: `Portfolio website built with React v18.2, Typescript,  react-router-dom v6, framer-motion, react-icons, Scss`,
-    image: 'https://raw.githubusercontent.com/erfjs/animated-portfolio/main/src/assets/example.png',
+    image: 'https://github.com/om-bhesania/My-Portfolio/assets/48543687/6768e6b5-ebaa-40e0-9b5b-4d5083cb7dd0',
     GitHub: 'https://github.com/om-bhesania/NextJS-portfolio-website',
     hosted: 'https://github.com/om-bhesania/NextJS-portfolio-website',
   },
@@ -16,7 +16,7 @@ const data = [
   {
     title: 'Personalized Card | XYZ~Bank',
     description: `You can personalize your bank card as you want. A very interesting program using only HTML, CSS and JavaScript, with which you can change the card name, color and model`,
-    image: 'https://raw.githubusercontent.com/erfjs/ejbank/main/img/example.png',
+    image: 'https://github.com/om-bhesania/My-Portfolio/assets/48543687/82787f8a-38df-4d84-a74a-8c6fc04ac403',
     GitHub: 'https://github.com/om-bhesania/Card-Personalizer',
     hosted: `https://cardpersonalizer.netlify.app/`,
   },

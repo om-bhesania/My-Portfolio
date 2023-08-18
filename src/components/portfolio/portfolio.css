@@ -19,7 +19,17 @@
 
 .portfolio__item-image {
   border-radius: 1.5rem;
+  height: 30vh;
   overflow: hidden;
+}
+
+.portfolio__item-image img{
+  transition: ease 0.6s;
+
+  height:30vh;
+}
+.portfolio__item-image img:hover{
+  transform: scale(1.2);
 }
 
 .portfolio__item h3 {

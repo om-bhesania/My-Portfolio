@@ -8,11 +8,9 @@ import React from 'react'
 import './experience.css'
 import {
   BsPatchCheckFill,
-  BsInstagram,
 
 } from 'react-icons/bs'
 import {
-  SiRedux,
   SiCss3,
   SiNextdotjs,
   SiBootstrap,
@@ -25,7 +23,7 @@ import {
   SiReact,
   SiVuedotjs,
   SiMysql,
-  SiMongodb
+  SiMongodb,
 } from "react-icons/si";
 const Experience = () => {
   return (
@@ -95,6 +93,12 @@ const Experience = () => {
                 <h4>Nextjs</h4>
               </div>
             </article>
+            <article className='experience__details'>
+              <SiFigma className='experience__details-icon' />
+              <div>
+                <h4>Figma</h4>
+              </div>
+            </article>
           </div>
         </div>
         {/* END OF FRONTEND */}
@@ -124,6 +128,12 @@ const Experience = () => {
               <SiMongodb className='experience__details-icon' />
               <div>
                 <h4>MongoDb</h4>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+                <h4>ExpressJs</h4>
               </div>
             </article>
           </div>

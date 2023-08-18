@@ -1,21 +1,19 @@
 import React from 'react'
+import "./jobs.css"
 
 
 // DO NOT USE THE IMAGES IN PRODUCTION
  const data = [
     {
-      title: ' MERN Project Intern  tatvasoft.com',
+      title: ' MERN Project Intern | tatvasoft.com',
       date: 'May 2023 - Jun 2023',
       details: [
-        'Developed web applications using React, and handled backend on Node.js', 
-        'Building a landing page with high speed and high scores in speed test gtmetrix and lighthouse, etc', 
-        'Creating a web application (Windows, Android and iOS)', 
-        'Create website with modern architecture and Layouts', 
-        'Collaborated closely with Senior developers on projects that require multiple people to complete tasks',
+        'Developed web applications using React, and handled backend on Node.js ', 
+        'Also Built a landing page with high speed and high scores in speed test gtmetrix and lighthouse, etc', 
       ],
     },
     {
-      title: 'Django Project Intern  brainybeams.com',
+      title: 'Django Intern | brainybeams.com',
       date: 'May 2023 - Jun 2023',
       details: [
         'Worked with a team of other Intern developers to create an e-commerce website using Django',
@@ -43,14 +41,14 @@ import React from 'react'
 
 const Jobs = () => {
   return (
-    <div className="container portfolio__container">
+    <div className="containerJobs portfolio__container">
         {
           data.map(({ date, title,details}) => {
             return (
               <article className='portfolio__item'>
               <h3>{title}</h3> 
               <h5>{date}</h5>
-              <br /> <p>{details}</p> <br />
+              <br /> <p>{details}</p>
             </article>
             )
           })
