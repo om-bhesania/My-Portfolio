@@ -9,15 +9,15 @@ const data = [
     title: 'Animated Portfolio',
     description: `Portfolio website built with React v18.2, Typescript,  react-router-dom v6, framer-motion, react-icons, Scss`,
     image: 'https://raw.githubusercontent.com/erfjs/animated-portfolio/main/src/assets/example.png',
-    GitHub: 'https://github.com/erfjs/animated-portfolio',
-    hosted: 'https://animated-portfolio.erfjs.com/',
+    GitHub: 'https://github.com/om-bhesania/NextJS-portfolio-website',
+    hosted: 'https://github.com/om-bhesania/NextJS-portfolio-website',
   },
  
   {
     title: 'Personalized Card | XYZ~Bank',
     description: `You can personalize your bank card as you want. A very interesting program using only HTML, CSS and JavaScript, with which you can change the card name, color and model`,
     image: 'https://raw.githubusercontent.com/erfjs/ejbank/main/img/example.png',
-    GitHub: 'https://github.com/erfjs/ejbank',
+    GitHub: 'https://github.com/om-bhesania/Card-Personalizer',
     hosted: `https://cardpersonalizer.netlify.app/`,
   },
   {
@@ -32,7 +32,7 @@ const data = [
     description: `Its a Merch store which is made on .liquid from shopify and is also a custom theme created by me and my team`,
     image: 'https://github.com/om-bhesania/todo-list/assets/48543687/4b0b4cd3-1a51-4283-ad43-5a7ae597e2f1',
     GitHub: 'https://github.com/om-bhesania',
-    hosted: `https://weather-checker.erfjs.com`,
+    hosted: `https://animemania.in`,
   },
   {
     title: 'Old Portfolio',
@@ -61,7 +61,7 @@ const Portfolio = () => {
 
       <div className="container portfolio__container">
         {
-          data.map(({id, image, title, github, demo,description}) => {
+          data.map(({id, image, title, GitHub, hosted,description}) => {
             return (
               <article key={id} className='portfolio__item'>
               <div className="portfolio__item-image">
@@ -70,8 +70,8 @@ const Portfolio = () => {
               <h2>{title}</h2>
               <p>{description}</p> <br />
               <div className="portfolio__item-cta">
-                <a href={github} className='btn' target='_blank' rel="noreferrer">Github</a>
-                <a href={demo} className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
+                <a href={GitHub} className='btn' target='_blank' rel="noreferrer">Github</a>
+                <a href={hosted} className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
               </div>
                  
             </article>

@@ -8,13 +8,15 @@ import Portfolio from './components/portfolio/Portfolio'
 
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
+import Jobs from './components/experienceJOB/job'
 
 const App = () => {
   return (
     <>
         <Header />
         <Nav />
-        <About />
+        <About /> <br /><br /><br /><br /><br />
+        <Jobs/>
         <Experience />
         <Portfolio />
         <Contact />
