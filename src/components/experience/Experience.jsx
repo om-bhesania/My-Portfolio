@@ -6,58 +6,93 @@
 
 import React from 'react'
 import './experience.css'
-import {BsPatchCheckFill} from 'react-icons/bs'
+import {
+  BsPatchCheckFill,
+  BsInstagram,
 
+} from 'react-icons/bs'
+import {
+  SiRedux,
+  SiCss3,
+  SiNextdotjs,
+  SiBootstrap,
+  SiPython,
+  SiDjango,
+  SiFigma,
+  SiHtml5,
+  SiJavascript,
+  SiGithub,
+  SiReact,
+  SiVuedotjs,
+  SiMysql,
+  SiMongodb
+} from "react-icons/si";
 const Experience = () => {
   return (
     <section id='experience'>
       <h5>What Skills I Have</h5>
       <h2>My Experience</h2>
-      
+
       <div className="container experience__container">
         <div className="experience__frontend">
           <h3>Frontend Development</h3>
           <div className="experience__content">
             <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
+              <SiHtml5 className='experience__details-icon' />
               <div>
                 <h4>HTML</h4>
-                <small className='text-light'>Experienced</small>
+
               </div>
             </article>
             <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
+              <SiCss3 className='experience__details-icon' />
               <div>
                 <h4>CSS</h4>
-                <small className='text-light'>Intermediate</small>
+
               </div>
             </article>
             <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
+              <SiJavascript className='experience__details-icon' />
               <div>
                 <h4>JavaScript</h4>
-                <small className='text-light'>Intermediate</small>
+
               </div>
             </article>
             <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
+              <SiBootstrap className='experience__details-icon' />
               <div>
                 <h4>Bootstrap</h4>
-                <small className='text-light'>Experienced</small>
+
               </div>
             </article>
             <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
+              <SiGithub className='experience__details-icon' />
               <div>
                 <h4>Git</h4>
-                <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
+              <SiReact className='experience__details-icon' />
               <div>
                 <h4>React</h4>
-                <small className='text-light'>Beginer</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <SiDjango className='experience__details-icon' />
+              <div>
+                <h4>Django</h4>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <SiVuedotjs className='experience__details-icon' />
+              <div>
+                <h4>Vue</h4>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <SiNextdotjs className='experience__details-icon' />
+              <div>
+                <h4>Nextjs</h4>
               </div>
             </article>
           </div>
@@ -65,34 +100,30 @@ const Experience = () => {
         {/* END OF FRONTEND */}
 
         <div className="experience__backend">
-        <h3>Backend Development</h3>
+          <h3>Backend Development</h3>
           <div className="experience__content">
             <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
+              <SiNextdotjs className='experience__details-icon' />
               <div>
                 <h4>Node JS</h4>
-                <small className='text-light'>Beginer</small>
               </div>
             </article>
             <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
+              <SiMysql className='experience__details-icon' />
               <div>
                 <h4>MySQL</h4>
-                <small className='text-light'>Intermediate</small>
               </div>
             </article>
             <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
+              <SiPython className='experience__details-icon' />
               <div>
                 <h4>Python</h4>
-                <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
+              <SiMongodb className='experience__details-icon' />
               <div>
-                <h4>Java</h4>
-                <small className='text-light'>Intermediate</small>
+                <h4>MongoDb</h4>
               </div>
             </article>
           </div>
