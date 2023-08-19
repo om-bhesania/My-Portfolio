@@ -5,7 +5,7 @@
     padding: 50px;
 }
 
-article{
+.containerJobs article{
     display: flex;
     justify-content: center;
     align-items: center;
